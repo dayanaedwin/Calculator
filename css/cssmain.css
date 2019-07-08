@@ -1,0 +1,58 @@
+.butn{
+  width: 50px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  border-radius: 35%;
+  color: #fff;;
+  background-color: #2FCAA5;
+  height: 50px;
+}
+
+.butn:hover{
+  background-color: #fff;
+  color: #2FCAA5;
+  border-color: #2FCAA5;
+
+}
+
+#ip-text{
+margin-bottom: 5px;
+border-radius: 10px;
+height: 40px;
+width: 205px;
+border-color: #2FCAA5;
+text-align: center;
+background-color: #fff;
+}
+
+.bttn{
+  display: block;
+  width: 220px;
+  margin: 60px auto;
+  margin-top: 200px;
+  border: 100px #000;
+  border-style: outset;
+  border-color: #2FCAA5;
+  border-width: 9px;
+  padding: 17px;
+  background-color: #e3faf1;
+  border-radius: 9%;
+
+}
+
+.butnex{
+  width: 103px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  border-radius: 17%;
+  height: 50px;
+  margin-right: 2px;
+  color: #fff;;
+  background-color: #2FCAA5;
+}
+
+.butnex:hover{
+  color: #2FCAA5;;
+  background-color: #fff;
+  border-color: #2FCAA5;
+}

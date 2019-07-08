@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="css\cssmain.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="p" class="bttn">
+      <div class="headg">
+        <input type="text" id="ip-text" disabled><br>
+      </div>
+      <div class="sec1">
+        <input type="button" id="btn9" value="9" class="butn" onclick="display(9)">
+        <input type="button" id="btn8" value="8" class="butn" onclick="display(8)">
+        <input type="button" id="btn7" value="7" class="butn" onclick="display(7)">
+        <input type="button" id="btn+" value="+" class="butn" onclick="plus()"><br>
+      </div>
+      <div class="sec2">
+        <input type="button" id="btn6" value="6" class="butn" onclick="display(6)">
+        <input type="button" id="btn5" value="5" class="butn" onclick="display(5)">
+        <input type="button" id="btn4" value="4" class="butn" onclick="display(4)">
+        <input type="button" id="btn-" value="-" class="butn" onclick="minus()"><br>
+      </div>
+      <div class="sec3">
+        <input type="button" id="btn3" value="3" class="butn" onclick="display(3)">
+        <input type="button" id="btn2" value="2" class="butn" onclick="display(2)">
+        <input type="button" id="btn1" value="1" class="butn" onclick="display(1)">
+        <input type="button" id="btn*" value="*" class="butn" onclick="multiply()"><br>
+      </div>
+      <div class="sec4">
+        <input type="button" id="btn0" value="0" class="butn" onclick="display(0)">
+        <input type="button" id="btn." value="." class="butn" onclick="displayDot()">
+        <input type="button" id="btn=" value="=" class="butn" onclick="eq()">
+        <input type="button" id="btn/" value="/" class="butn" onclick="divide()">
+      </div>
+      <div class="sec0">
+        <input type="button" id="btnAC" value="AC" class="butnex" onclick="ac()">
+        <input type="button" id="btnDEL" value="DEL" class="butnex" onclick="delet()">
+      </div>
+    </div>
+    <script src="js\jsmain.js"></script>
+  </body>
+</html>
